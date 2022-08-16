@@ -1,0 +1,17 @@
+
+fork.c - ilustra el uso de fork
+
+sumSec.c - implementacion secuencial 
+	USO: ./sumSec <n>   // Suma de 1 a n
+
+sumPar.c - implementacion paralela
+	USO: ./sumPar <n>   // Dos procesos suman de 1 a n
+
+Makefile 
+	USO: make	// compila todos los programas
+
+
+Ejecutar los programas con diferentes valores de n 
+
+Analizar los resultados. Hint: observar el orden de las salidas del programa
+Explicar dichas salidas
