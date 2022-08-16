@@ -1,0 +1,15 @@
+CONTAR numero de 3's en una matriz de N x M de numeros aleatorios entre 1 y 10
+
+tres_fil.c - secuencial por filas
+tres_col.c - secuencial por columnas
+tres_threads.c - con threads, sin control de concurrencia
+tres_mutex.c - con threads y mutex
+tres_priv.c - con threads y mutex, usa contadores privados
+tres_cache_line.c - con threads y mutex, contadores en "su" linea de cache
+tres_local.c - con threads y mutex, usa contadores locales
+
+Ejecutar los programas con threads (paralelos / concurrentes) con matrices 
+grandes (10000 x 10000 o mas si es posible) y con diferentes numeros de hilos:
+2, 4, 8
+
+Analizar los resultados
